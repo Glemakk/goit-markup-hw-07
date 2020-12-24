@@ -1,0 +1,16 @@
+/* Оформление лого шапка*/
+.nav-logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+
+  margin-right: 93px;
+}
+
+.nav-logo span {
+  color: var(--accent-color);
+}

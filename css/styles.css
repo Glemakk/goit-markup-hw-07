@@ -203,8 +203,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail-icon,
-.tel-icon {
+.contacts-list__icon {
   fill: currentColor;
   margin-right: 10px;
 }
