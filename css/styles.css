@@ -634,13 +634,13 @@ img {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-list {
+.portfolio__filter-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.filter-list-item:not(:last-child) {
+.portfolio__filter-list-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -654,36 +654,36 @@ img {
 /*==================== END OF FILTERS ====================*/
 
 /*==================== PORTFOLIO LIST ====================*/
-.portfolio-list {
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.portfolio-list-item:not(:nth-child(3n)) {
+.portfolio__list-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.portfolio-list-item:nth-child(-n + 6) {
+.portfolio__list-item:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
 
-/* .portfolio-list-item:nth-child(n + 7) {
+/* .portfolio__list-item:nth-child(n + 7) {
   margin-bottom: 94px;
 } */
 
-.portfolio-list-item {
+.portfolio__list-item {
   box-sizing: border-box;
   max-width: 370px;
   background: #ffffff;
 }
 
-.portfolio-link {
+.portfolio__list-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio__list-link:hover,
+.portfolio__list-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -695,7 +695,7 @@ img {
   padding: 20px 21px;
 }
 
-.portfolio-title {
+.portfolio-title-block__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -704,7 +704,7 @@ img {
   margin-bottom: 4px;
 }
 
-.portfolio-subtitle {
+.portfolio-title-block__subtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
@@ -729,12 +729,12 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link:hover .portfolio-drawer,
-.portfolio-link:focus .portfolio-drawer {
+.portfolio__list-link:hover .portfolio-drawer,
+.portfolio__list-link:focus .portfolio-drawer {
   transform: translateY(0);
 }
 
-.drawer-desc {
+.portfolio-drawer__desc {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.555;
