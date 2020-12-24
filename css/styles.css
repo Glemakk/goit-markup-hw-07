@@ -515,10 +515,10 @@ img {
   width: 231px;
 }
 
-.address-item:not(:last-child) {
+.address__list-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.adress-place {
+.address__list-place {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -527,7 +527,7 @@ img {
   font-style: normal;
 }
 
-.adress-info {
+.adress__list-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -540,24 +540,24 @@ img {
   margin-left: 70px;
 }
 
-.social-list-footer {
+.footer-social-side_list {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.social-list-footer-item .social-list__icon {
-  fill: var(--bg-color);
-
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.footer-social-side__item:not(:last-child) {
+  margin-right: 10px;
 }
 
-.social-list-footer-item a {
+.footer-social-side__link {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-list-footer-item:not(:last-child) {
-  margin-right: 10px;
+.footer-social-side__item .social-list__icon {
+  fill: var(--bg-color);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-right-side {
@@ -566,12 +566,12 @@ img {
 
 /* ---- Правый блок Подпишись ---- */
 
-.subscribe {
+.form {
   display: flex;
   margin-top: 20px;
 }
 
-.subscribe-form input {
+.form__subscribe input {
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -582,11 +582,11 @@ img {
   padding: 15px 16px;
 }
 
-.form-input::placeholder {
+.form__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-form {
+.form__subscribe {
   display: flex;
   width: 358px;
   height: 50px;
