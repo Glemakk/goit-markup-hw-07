@@ -55,7 +55,7 @@ img {
   padding-bottom: 94px;
 }
 
-.social-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
 }
@@ -346,13 +346,13 @@ img {
   background-color: var(--secondary-bg-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
   /* На перспективу при добавлении контента */
   /* flex-wrap: wrap; */
 }
 
-.team-item {
+.team__list-item {
   background-color: var(--bg-color);
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -360,17 +360,17 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list .team-item:not(:last-child) {
+.team__list-item:not(:last-child) {
   margin-right: 30px;
 }
 /* Альтернатива :not(:last-child) при добавлении контента
  (в данном случает по 4 в строке) */
 
-/* .team-list .team-item:not(:nth-child(4n)) {
+/* .team__list-item:not(:nth-child(4n)) {
   margin-right: 30px;
 } */
 
-.team-empl-name {
+.team__list-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -379,7 +379,7 @@ img {
   margin-top: 30px;
 }
 
-.team-position {
+.team__list-position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
@@ -398,7 +398,7 @@ img {
   margin-top: 16px;
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -411,19 +411,19 @@ img {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list__link:hover,
+.social-list__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-list-link .social-icon {
+.social-list__link .social-list__icon {
   fill: #afb1b8;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover .social-icon,
-.social-list-link:focus .social-icon {
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
   fill: var(--bg-color);
 }
 
@@ -441,7 +441,7 @@ img {
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
 }
 
@@ -546,7 +546,7 @@ img {
   margin-top: 20px;
 }
 
-.social-list-footer-item .social-icon {
+.social-list-footer-item .social-list__icon {
   fill: var(--bg-color);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
