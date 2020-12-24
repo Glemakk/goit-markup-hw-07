@@ -121,6 +121,23 @@ img {
   align-items: center;
 }
 
+/* Оформление лого шапка*/
+.nav-logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+
+  margin-right: 93px;
+}
+
+.nav-logo span {
+  color: var(--accent-color);
+}
+
 .nav__list {
   display: flex;
   align-items: center;
@@ -130,57 +147,40 @@ img {
   letter-spacing: 0.02em;
 }
 
-.contacts-list {
-  display: flex;
-  align-items: center;
-}
-
-.nav .nav-logo {
-  margin-right: 93px;
-}
-
-.nav__item:not(:last-child),
-.contacts-list-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.contacts-list {
-  margin-left: auto;
-}
-
-/* Оформление лого шапка*/
-.nav-logo {
-  color: #000000;
-  text-decoration: none;
-
-  font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-}
-
-.nav-logo span {
-  color: var(--accent-color);
-}
-
 .nav__item {
   position: relative;
 }
 
-.studio-head {
-  color: #000000;
-  font-family: var(--logo-font);
+.nav__item:not(:last-child),
+.contacts-list__item:not(:last-child) {
+  margin-right: 50px;
 }
 
-.nav__list .nav__link {
+.nav__link {
   color: var(--primary-font-color);
   padding: 7px 0;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-address-link {
+.nav__link:hover,
+.nav__link:focus,
+.contacts-list__link:hover,
+.contacts-list__link:focus {
+  color: var(--accent-color);
+}
+
+.nav__link.current {
+  color: var(--accent-color);
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contacts-list__link {
   display: flex;
   color: var(--secondary-font-color);
   align-items: center;
@@ -189,22 +189,12 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail,
-.tel {
+.mail-icon,
+.tel-icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.nav__list .nav__link:hover,
-.nav__list .nav__link:focus,
-.header-address-link:hover,
-.header-address-link:focus {
-  color: var(--accent-color);
-}
-
-.nav__list .nav__link.current {
-  color: var(--accent-color);
-}
 /*==================== END OF HEADER ====================*/
 
 /*==================== HERO ====================*/
