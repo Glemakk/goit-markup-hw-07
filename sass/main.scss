@@ -10,7 +10,7 @@
 @import "./components/common/logo";
 @import "./components/common/page-header/nav";
 @import "./components/common/page-header/contacts";
-@import "./components/common/page-footer/footer";
+
 @import "./components/backdrop";
 @import "./components/modal-btn";
 @import "./components/close-btn";
@@ -22,6 +22,7 @@
 @import "./layout/index/about";
 @import "./layout/index/team";
 @import "./layout/index/clients";
-
 @import "./layout/portfolio/filters";
 @import "./layout/portfolio/portfolio";
+
+@import "./components/common/page-footer/footer";
