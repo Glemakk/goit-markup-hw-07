@@ -1,14 +1,27 @@
-@import "./common";
+@import "./utils/variables";
 @import "./utils/visually-hidden";
+
+// base
+@import "./base/container";
+@import "./base/common";
+
+// components
 @import "./components/common/page-header/base";
 @import "./components/common/logo";
 @import "./components/common/page-header/nav";
 @import "./components/common/page-header/contacts";
-@import "./components/index.html/page-hero/hero";
-@import "./components/index.html/page-features/features";
-@import "./components/index.html/page-about/about";
-@import "./components/index.html/page-team/team";
-@import "./components/index.html/page-clients/clients";
 @import "./components/common/page-footer/footer";
-@import "./components/portfolio.html/page-filters/filters";
-@import "./components/portfolio.html/page-portfolio/portfolio";
+@import "./components/backdrop";
+@import "./components/modal-btn";
+@import "./components/close-btn";
+@import "./components/modal";
+
+// layout
+@import "./layout/index/hero";
+@import "./layout/index/features";
+@import "./layout/index/about";
+@import "./layout/index/team";
+@import "./layout/index/clients";
+
+@import "./layout/portfolio/filters";
+@import "./layout/portfolio/portfolio";

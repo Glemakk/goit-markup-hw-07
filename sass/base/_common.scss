@@ -1,15 +1,3 @@
-:root {
-  --primary-font-color: #212121;
-  --secondary-font-color: #757575;
-  --accent-color: #2196f3;
-  --bg-color: #ffffff;
-  --secondary-bg-color: #f5f4fa;
-  --footer-bg-color: #2f303a;
-
-  --primary-font: "Roboto", sans-serif;
-  --logo-font: "Raleway", sans-serif;
-}
-
 body {
   background-color: var(--bg-color);
   color: var(--primary-font-color);
@@ -42,12 +30,6 @@ ol {
 
 img {
   display: block;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .block {
