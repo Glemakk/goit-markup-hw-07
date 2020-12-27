@@ -18,9 +18,8 @@
 }
 
 .clients__list-link {
-  display: flex;
+  @include centeredFlex();
   justify-content: center;
-  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;

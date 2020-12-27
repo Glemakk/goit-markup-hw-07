@@ -5,8 +5,7 @@
 }
 
 .footer .container {
-  display: flex;
-  align-items: baseline;
+  @include centeredFlex(baseline);
 }
 
 .address {
@@ -99,8 +98,7 @@
 
   &::after {
     content: "";
-    display: flex;
-    align-items: center;
+    @include centeredFlex();
     width: 24px;
     height: 24px;
     margin-left: 10px;

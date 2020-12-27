@@ -118,8 +118,7 @@
 }
 
 .modal__form-policy-text {
-  display: flex;
-  align-items: center;
+  @include centeredFlex();
   justify-content: center;
   font-weight: normal;
   font-size: 14px;
