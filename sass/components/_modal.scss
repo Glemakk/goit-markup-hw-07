@@ -26,9 +26,7 @@
 
 .modal__caption {
   display: inline-block;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include fontOptions(700, 20px, 23px);
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -42,9 +40,7 @@
 }
 
 .modal__form-label {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.666;
+  @include fontOptions(400, 12px, 20px);
   letter-spacing: 0.01em;
 
   color: var(--secondary-font-color);
@@ -84,11 +80,8 @@
   padding: 12px 16px;
 
   &::placeholder {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
+    @include fontOptions(400, 12px, 14px);
     letter-spacing: 0.01em;
-
     color: rgba(117, 117, 117, 0.5);
   }
 
@@ -120,9 +113,7 @@
 .modal__form-policy-text {
   @include centeredFlex();
   justify-content: center;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
+  @include fontOptions(400, 14px, 24px);
   letter-spacing: 0.03em;
   margin-bottom: 30px;
 

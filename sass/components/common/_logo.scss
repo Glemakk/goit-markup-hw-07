@@ -2,9 +2,7 @@
   color: #000000;
   text-decoration: none;
   font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+  @include fontOptions(700, 26px, 31px);
   letter-spacing: 0.03em;
 
   margin-right: 93px;
@@ -21,9 +19,7 @@
   text-decoration: none;
 
   font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+  @include fontOptions(700, 26px, 31px);
   letter-spacing: 0.03em;
 }
 

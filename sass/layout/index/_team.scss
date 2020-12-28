@@ -3,9 +3,7 @@
 }
 
 .team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.666;
+  @include fontOptions(700, 36px, 60px);
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
@@ -36,18 +34,14 @@
 } */
 
 .team__list-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
+  @include fontOptions(500, 16px, 19px);
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 30px;
 }
 
 .team__list-position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.187;
+  @include fontOptions(400, 16px, 19px);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-font-color);

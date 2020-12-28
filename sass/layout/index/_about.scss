@@ -3,9 +3,7 @@
 }
 
 .about-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.666;
+  @include fontOptions(700, 36px, 60px);
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
