@@ -419,7 +419,7 @@
             </button>
             <b class="modal__caption">Оставьте свои данные, мы вам перезвоним</b>
             
-            <form class="modal__form">
+            <form autocomplete="off" action="#" class="modal__form">
                 <label class="modal__form-label">Имя
                     <span class="modal__form-input-wrapper">
                         <input type="text" class="modal__form-input" name="name">
@@ -450,7 +450,7 @@
                     <textarea class="modal__form-comment" name="comment" placeholder="Введите текст"></textarea>
                 </label>                  
             
-                <input type="checkbox" id="user-policy" name="user-policy"      value="accept-policy" class="modal__form-policy visually-hidden">
+                <input type="checkbox" id="user-policy" name="user-policy" value="accept-policy" class="modal__form-policy visually-hidden">
                 <label for="user-policy" class="modal__form-policy-text">Соглашаюсь с рассылкой и принимаю&nbsp;<a class="modal__form-policy-link" href="">Условия договора</a>
                 </label>
                 
